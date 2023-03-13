@@ -1,0 +1,35 @@
+name: jcopml
+
+channels:
+- conda-forge
+- anaconda 
+
+dependencies:
+# Essential
+- python
+- nb_conda_kernels
+- pip
+- ipython
+- tqdm
+# Data Science
+- numpy
+- scipy
+- pandas
+# Machine Learning
+- scikit-learn
+- xgboost
+- scikit-optimize
+# Visualization
+- matplotlib
+- seaborn
+- ipywidgets
+- pydotplus
+- pillow
+# NPL
+- nltk
+- pip:
+  # Machine Learning
+  - xgboost
+  - scikit-optimize
+  - jcopml
+  - luwiji
